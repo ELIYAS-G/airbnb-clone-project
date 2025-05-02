@@ -111,3 +111,25 @@ A platform to containerize the application and ensure consistency across develop
 - A **Booking** belongs to one **Property** and one **User**.
 - A **Review** is written by a **User** for a **Property**.
 - A **Payment** is linked to one **Booking**.
+## Feature Breakdown
+
+### User Management
+Allows users to register, log in, update their profiles, and manage their accounts. This ensures secure access and personalized user experiences.
+
+### Property Management
+Hosts can list, update, and delete their properties, including adding photos, descriptions, and pricing. This feature forms the backbone of the platform, providing users with options to browse.
+
+### Booking System
+Enables guests to search for available properties, make reservations, and manage their bookings. This is the core transactional flow of the application.
+
+### Reviews and Ratings
+Lets users leave reviews and ratings for properties after their stay. This builds trust in the platform and helps future guests make informed decisions.
+
+### Payment Integration
+Handles secure payments, including deposits and refunds, for bookings. This ensures smooth and reliable financial transactions between guests and hosts.
+
+### Search and Filters
+Provides search functionality with filters like location, price, dates, and property type. This helps users quickly find listings that match their needs.
+
+### Admin Dashboard (optional if you plan to build it)
+Gives administrators tools to monitor users, properties, bookings, and handle reports. This keeps the platform running smoothly and safely.
