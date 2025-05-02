@@ -154,3 +154,15 @@ Validates and sanitizes all incoming data to prevent attacks like SQL injection 
 - Protecting user data maintains trust and compliance with privacy regulations.
 - Securing payments prevents fraud and financial losses.
 - Preventing abuse ensures fair use of the platform and keeps it running smoothly.
+## CI/CD Pipeline
+
+### What is CI/CD?
+CI/CD (Continuous Integration and Continuous Deployment) is a development practice where code changes are automatically built, tested, and deployed. CI ensures that new code integrates smoothly with the existing codebase, while CD automates the delivery of these changes to production or staging environments.
+
+### Why is it important?
+CI/CD helps catch bugs early, speeds up development, and ensures that the application is always in a deployable state. It reduces human error, increases deployment speed, and improves overall software quality — making the development process smoother and more reliable.
+
+### Tools We Could Use
+- **GitHub Actions**: Automates workflows like testing, building, and deployment directly from GitHub.
+- **Docker**: Packages the application into containers for consistent deployment across different environments.
+- **Jenkins (optional)**: A flexible automation server for managing complex pipelines.
