@@ -133,3 +133,24 @@ Provides search functionality with filters like location, price, dates, and prop
 
 ### Admin Dashboard (optional if you plan to build it)
 Gives administrators tools to monitor users, properties, bookings, and handle reports. This keeps the platform running smoothly and safely.
+## API Security
+
+### Authentication
+Ensures that only registered users can access certain endpoints by verifying their identity through methods like tokens or sessions. This protects user accounts and prevents unauthorized access.
+
+### Authorization
+Controls what actions each user can perform, based on their role (e.g., guest, host, admin). This prevents users from accessing or modifying data they shouldn’t touch.
+
+### Rate Limiting
+Limits the number of API requests a user or IP address can make in a certain timeframe. This defends against brute-force attacks and reduces server overload.
+
+### Data Encryption
+Encrypts sensitive data in transit (using HTTPS) and at rest. This safeguards user information like passwords, payment details, and personal data from interception or leaks.
+
+### Input Validation and Sanitization
+Validates and sanitizes all incoming data to prevent attacks like SQL injection and cross-site scripting (XSS). This keeps the system robust and resistant to malicious inputs.
+
+### Why Security Matters
+- Protecting user data maintains trust and compliance with privacy regulations.
+- Securing payments prevents fraud and financial losses.
+- Preventing abuse ensures fair use of the platform and keeps it running smoothly.
