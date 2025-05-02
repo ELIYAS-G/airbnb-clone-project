@@ -39,3 +39,28 @@ Designs wireframes, mockups, and user flows to ensure an intuitive and engaging 
 
 ### 8. Scrum Master / Project Manager
 Keeps the team on track, manages timelines, removes blockers, and facilitates communication among team members.
+## Technology Stack
+
+### Python
+A versatile programming language used to build the backend logic and core functionalities.
+
+### Flask
+A lightweight web framework for building RESTful APIs and handling routing, requests, and responses.
+
+### HTML / CSS / JavaScript
+Core front-end technologies for structuring, styling, and adding interactivity to the web application.
+
+### MySQL (or SQLite)
+A relational database system to store user data, bookings, property listings, and other critical information.
+
+### Bootstrap
+A front-end framework for quickly designing responsive and mobile-first user interfaces.
+
+### Git
+A version control system to track code changes and collaborate with the team.
+
+### GitHub
+A cloud-based hosting service for managing the repository, collaborating on code, and version control.
+
+### Docker (optional, if you plan to use it)
+A platform to containerize the application and ensure consistency across development and production environments.
