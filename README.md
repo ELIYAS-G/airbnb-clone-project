@@ -64,3 +64,50 @@ A cloud-based hosting service for managing the repository, collaborating on code
 
 ### Docker (optional, if you plan to use it)
 A platform to containerize the application and ensure consistency across development and production environments.
+## Database Design
+
+### Entities and Fields
+
+#### 1. Users
+- id (unique identifier)
+- name
+- email
+- password_hash
+- date_joined
+
+#### 2. Properties
+- id
+- owner_id (foreign key → Users)
+- title
+- description
+- location
+
+#### 3. Bookings
+- id
+- user_id (foreign key → Users)
+- property_id (foreign key → Properties)
+- start_date
+- end_date
+
+#### 4. Reviews
+- id
+- user_id (foreign key → Users)
+- property_id (foreign key → Properties)
+- rating
+- comment
+
+#### 5. Payments
+- id
+- booking_id (foreign key → Bookings)
+- amount
+- payment_date
+- status
+
+### Entity Relationships
+
+- A **User** can have multiple **Properties**.
+- A **User** can make multiple **Bookings**.
+- A **Property** can have multiple **Bookings**.
+- A **Booking** belongs to one **Property** and one **User**.
+- A **Review** is written by a **User** for a **Property**.
+- A **Payment** is linked to one **Booking**.
